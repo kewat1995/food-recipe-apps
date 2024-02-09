@@ -14,7 +14,7 @@ const Navbar = () => {
         <input
           className="bg-white/75 p-3 px-8 rounded-full shadow-lg sm:w-96 outline-none shadow-red-100 focus:shadow-red-200 border "
           type="text "
-          placeholder="Enter food items name..."
+          placeholder="Enter fruits items name..."
           name="search"
           value={searchParam}
           onChange={(e) => setSearchparam(e.target.value)}
