@@ -61,9 +61,9 @@ const Details = () => {
         <div>
           <span className="font-bold text-2xl text-black">Ingredients:</span>
           <ul className="flex flex-col">
-            {recipeDatailsData?.recipe?.ingredients.map((item) => (
+            {recipeDatailsData?.recipe?.ingredients.map((item,index) => (
               
-              <li key={item.id} className="flex flex-row gap-1">
+              <li key={index} className="flex flex-row gap-1">
                 <span className="text-black font-medium text-2xl">
                   {item.quantity} {item.unit}
                 </span>

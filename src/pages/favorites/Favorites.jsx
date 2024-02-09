@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import  { useContext } from "react";
 import { foodRecipe } from "../../context";
 import RecipesItems from "../../components/RecipesItems";
 
@@ -12,7 +12,7 @@ const Favorites = () => {
         <div>
           {" "}
           <p className="lg:text-4xl text-center text-black  font-extrabold text-xl">
-            Nothing to add more
+            Notheing to add more
           </p>
         </div>
       )}

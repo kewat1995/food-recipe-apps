@@ -1,3 +1,5 @@
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react/prop-types */
 import { createContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -13,6 +15,7 @@ const FoodRecipeProvider = ({ children }) => {
 
   const handelSubmit = async (event) => {
     event.preventDefault();
+    setLoading(true)
 
     try {
       const response = await fetch(

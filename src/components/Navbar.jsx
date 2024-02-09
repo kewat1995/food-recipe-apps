@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center py-8 container flex-col mx-auto sm:flex-row gap-5 sm:gap-0  ">
       <h2>
-        <Link to="/">FoodRecipe</Link>
+        <Link to="/">FruitRecipe</Link>
       </h2>
       <form onSubmit={handelSubmit}>
         <input
